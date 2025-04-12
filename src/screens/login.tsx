@@ -37,7 +37,7 @@ const LoginPage: React.FC = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Login</Text>
+      <Text className="text-white text-lg">Login</Text>
       <TextInput
         style={styles.input}
         placeholder="Email"
